@@ -1,0 +1,273 @@
+/* body {
+    background-image: url("./homePics/homePic2tester.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+} */
+.mainBackground {
+  font-size: 32pt;
+}
+
+#mainBackground1 {
+  font-size: 32pt;
+  opacity: 25%;
+}
+
+.Megan {
+  color: blue;
+}
+
+#Megan {
+  color: blue;
+}
+
+.homie {
+  font-weight:bolder;
+  font-size: 100px;
+}
+#blurb {
+  color: white;
+}
+
+.headerPic {
+  background-image: url("./homePics/homePic2tester.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  /* border:2pt solid black; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.headerBar {
+  text-align: center;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerScroll {
+  position: relative;
+  /* height:400px; */
+}
+
+.profPic {
+  width: 50%;
+  border-radius: 50%;
+
+}
+
+.cupLogo {
+  width: 80%;
+  padding: 10%;
+  margin: 10%;
+  margin-bottom: -10%;
+  margin-top: -10%;
+}
+
+.blurb {
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.meMe {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.contactMe {
+  margin-left: 5%;
+  padding: -5%;
+}
+#copyright {
+  background-color: gray;
+  position: relative;
+  display: block;
+  width: 90%;
+  text-align: center;
+  font: 12pt;
+  font: black;
+  display: block;
+  /* border: solid 2pt white; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  padding: 7pt;
+  opacity:.4;
+}
