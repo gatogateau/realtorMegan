@@ -75,6 +75,13 @@
   font-weight: bold;
 
 }
+.reviewHeader {
+  text-align: center;
+}
+
+.POSreviewer {
+  width: 30%;
+}
 
 /* Hide the images by default */
 .mySlides {
